@@ -1,8 +1,9 @@
+import os
+os.environ["MPLBACKEND"] = "Agg"
+
+import matplotlib.pyplot as plt
 import streamlit as st
 import numpy as np
-import matplotlib
-matplotlib.use('TkAgg')
-import matplotlib.pyplot as plt
 
 def run_biased_timer_simulation(prob_list, num_samples=10000, max_weeks=200):
     """
