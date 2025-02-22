@@ -79,10 +79,7 @@ def main():
         ax.hist(all_T, bins=bins, density=True, alpha=0.6, align='left', rwidth=0.8)
         ax.set_xlabel("Weeks")
         ax.set_ylabel("Probability")
-        ax.set_title("Time Until All Pauses Occur with Directional Bias")
-        
-        # Display a label above the plot.
-        st.write("Weekly Activation Count")
+        ax.set_title("Weekly Activation Count")
         st.pyplot(fig)
 
 if __name__ == "__main__":
