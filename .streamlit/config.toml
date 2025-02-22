@@ -1,1 +1,3 @@
+[runner]
+entrypoint = "Streamlit_Timer_App_Clean.py"
 
